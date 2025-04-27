@@ -9,8 +9,8 @@ void getthedata(ifstream& currentfile) {
 	double integerval;
 	double sumvaluex = 0;
 	double sumvaluexSq = 0;
-	double minimumvalueintegerx = -INFINITY;
-    double maximumvaluex = INFINITY;   //we assigned -INFINITY & INFINITY as parameters that ensure numbers wont go out of range
+	double minimumvalueintegerx = INFINITY;
+    double maximumvaluex = -INFINITY;   //we assigned -INFINITY & INFINITY as parameters that ensure numbers wont go out of range
 	int counttracker = 0;
 
 	while (currentfile >> integerval) {
