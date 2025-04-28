@@ -38,7 +38,7 @@ void getthedata(ifstream& currentfile) {
 	cout << "Maximum result: " << maximumvaluex << endl;
 	cout << "Minimum result: " << minimumvalueintegerx << endl;
 
-	cout << "Thanks for using the Number Statistics Program!";
+	cout << "Thank you for using the Number Statistics Program!";
 
 
 }
